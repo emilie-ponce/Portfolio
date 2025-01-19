@@ -1,7 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: #d7dff1;
+    width: 99%;
 }
-/*profil*/
+/*haut de page*/
+.nomprenom0{
+   padding-right: 64%;
+   font-family: "Gowun Dodum", serif;
+   font-size: 18px;
+   color: black;
+}
+header{
+    height: fit-content;
+    background-color: #6285d7;
+    width: 101%;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    list-style: none;  
+    height: 55px;
+    padding-right: 3%;
+}
+.lien{
+    font-family: "Gowun Dodum", serif;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+/*PAGE PROFIL*/
 .profil{
     border: solid 5px #6285d7;
     background-color: white;
@@ -135,4 +168,72 @@ body{
 .image3{
     width: 33%;
     height: 40vh;
+}
+
+/*PAGE PROJETS*/
+.projets{
+    font-family: "Hurricane", serif;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    font-size: 40px;
+}
+.projets2{
+    border: solid 5px #6285d7;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 15px 100px 15px;
+    margin: 5%;
+    margin-top: 7%;
+}
+.fansite{
+    font-family: "Gowun Dodum", serif;
+    font-size: 20px;
+    padding-bottom: 1%;
+    color: #0d3ba8;
+}
+
+/*PAGE CONTACT*/
+.formulaire{
+    border: solid 5px #6285d7;
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px 50px 30px 50px;
+    margin: 40px 200px 30px 200px;
+    text-align: center;
+}
+.formulaire2{
+    font-family: "Hurricane", serif;
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 5%;
+    color: #0d3ba8;
+}
+.mail{
+    font-family: "Gowun Dodum", serif;
+    font-size: 15px;
+    padding-bottom: 1%;
+    color: #0d3ba8;
+}
+.input{
+    width: 28%;
+    height: 5vh;
+    border-radius: 25px;
+    border: solid #6285d7
+}
+textarea{
+    border-radius: 25px;
+    border: solid #6285d7;
+    width: 40%;
+}
+.send{
+    width: 10%;
+    height: 5vh;
+    border-radius: 25px;
+    border: solid #6285d7;
+    font-family: "Gowun Dodum", serif;
+    color: #0d3ba8;
 }
