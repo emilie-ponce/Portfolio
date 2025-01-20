@@ -176,7 +176,7 @@ ul{
     text-align: center;
     margin-top: 7%;
     margin-bottom: 7%;
-    font-size: 40px;
+    font-size: 50px;
 }
 .projets2{
     border: solid 5px #6285d7;
@@ -185,7 +185,7 @@ ul{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 100px 15px 100px 15px;
+    padding: 30px 50px 30px 50px;
     margin: 5%;
     margin-top: 7%;
 }
@@ -194,6 +194,68 @@ ul{
     font-size: 20px;
     padding-bottom: 1%;
     color: #0d3ba8;
+}
+.fansite2{
+    font-family: "Gowun Dodum", serif;
+    font-size: 15px;
+}
+.figma{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 3%;
+}
+.figmabureau{
+    width: 65%;
+    height: 70vh;
+}
+.figmatelephone{
+    width: 20%;
+    height: 70vh;
+}
+.pageaccueil{
+    font-family: "Gowun Dodum", serif;
+    font-size: 15px;
+    padding-top: 2%;
+}
+.pageaccueilbureau{
+    width: 65%;
+    height: 70vh;
+}
+.pageaccueiltelephone{
+    width: 20%;
+    height: 70vh;
+}
+.pageaccueil2{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 2%;
+}
+.pagefansite{
+    font-family: "Gowun Dodum", serif;
+    font-size: 15px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.pagefansiteformatbureau{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pagefansitebureau{
+    width: 70%;
+    height: 70vh;
+}
+.pagefansitebureau2{
+    width: 70%;
+    height: 70vh;
+}
+.pagefansite2{
+    font-family: "Gowun Dodum", serif;
+    font-size: 15px;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 /*PAGE CONTACT*/
